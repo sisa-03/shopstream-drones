@@ -1,0 +1,40 @@
+{
+  "name": "drone-delivery-s5b5",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "fresh": "taskkill /F /IM node.exe /T; node server/index.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.3",
+    "framer-motion": "^11.0.8",
+    "lucide-react": "^0.363.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "three": "^0.162.0",
+    "@react-three/fiber": "^8.15.19",
+    "@react-three/drei": "^9.102.6",
+    "axios": "^1.6.8",
+    "socket.io-client": "^4.7.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3",
+    "socket.io": "^4.7.5",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.2"
+  }
+}
